@@ -270,6 +270,7 @@ body {
 .tag__link {
   font-family: OpenSans-Bold, sans-serif;
   font-size: 14px;
+  font-weight: bold;
   color: #b59f5b;
   text-transform: uppercase;
 }
@@ -320,6 +321,8 @@ body {
   width: 1170px;
   margin: 0 auto;
   justify-content: space-between;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .main {
@@ -512,6 +515,7 @@ body {
 
 .tag__list-item {
   font-family: OpenSans-Bold, sans-serif;
+  font-weight: bold;
   font-size: 12px;
   text-transform: uppercase;
   margin-right: 5px;
@@ -626,7 +630,6 @@ body {
 
 .btn__the-store {
   width: 140px;
-  height: 50px;
   background-color: #b59f5b;
   border: none;
 }
@@ -636,11 +639,15 @@ body {
 }
 
 .btn__the-store-link {
+  display: inline-block;
   font-family: OpenSans-Bold, sans-serif;
   font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 14px;
   text-transform: uppercase;
   color: white;
+  text-align: center;
 }
 
 /*ASIDE END*/
@@ -650,6 +657,8 @@ body {
 .footer {
   width: 1170px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .social__block {
@@ -667,9 +676,12 @@ body {
   display: flex;
 }
 
+.icon__list-item {
+  margin-right: 30px;
+}
+
 .icon__link {
   display: block;
-  margin-right: 30px;
   width: 20px;
   height: 20px;
   vertical-align: center;
@@ -839,7 +851,7 @@ body {
 
 /*!*TABLET VERSION START*!*/
 
-@media (min-width: 480px) and (max-width: 770px) {
+@media (min-width: 641px) and (max-width: 1200px) {
   .container {
     width: 90vw;
     margin: 0 auto;
@@ -933,7 +945,7 @@ body {
 
 /*!*MOBILE VERSION START*!*/
 
-@media (max-width: 480px) {
+@media (max-width: 640px) {
   .menu {
     display: none;
   }
@@ -1051,6 +1063,15 @@ body {
     max-width: 480px;
     width: 100%;
     margin: 0 auto 30px;
+  }
+
+  .popup {
+    width: 330px;
+  }
+
+  .text__area {
+    max-width: 280px;
+    min-width: 270px;
   }
 
   .footer {
