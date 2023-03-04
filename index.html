@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Дипломный проект</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fonts.css">
 </head>
 <body>
     <header class="header">
@@ -36,7 +35,7 @@
             </div>
         </div>
     </header>
-    <section>
+    <section class="">
         <div class="article__header">
             <h2 class="article__header-text">Сейчас в тренде</h2>
         </div>
@@ -209,11 +208,11 @@
             </div>
             <section class="search">
                 <form class="search__form">
-                    <label>
+                    <label class="search__label">
                         <span class="visually-hidden">Поле поиска</span>
                         <input type="text" class="search__input" placeholder="Найти...">
+                        <button class="search__btn"><span class="visually-hidden">Кнопка поиска</span></button>
                     </label>
-                    <button class="search__btn"><span class="visually-hidden">Кнопка поиска</span></button>
                 </form>
             </section>
             <h3 class="aside__header">Рассылка</h3>
@@ -222,8 +221,8 @@
                     <label>
                         <span class="visually-hidden">Подписаться на рассылку</span>
                         <input type="email" class="subscribe__input" placeholder="Ваш email-адрес">
+                        <button class="subscribe__btn"><span class="visually-hidden">Кнопка подписаться</span>Подписаться</button>
                     </label>
-                    <button class="subscribe__btn"><span class="visually-hidden">Кнопка подписаться</span>Подписаться</button>
                 </form>
             </section>
             <h3 class="aside__header">Теги</h3>
@@ -252,32 +251,32 @@
             </section>
         </aside>
     </div>
-    <section>
+    <section class="">
         <div class="article__header shop">
             <h2 class="article__header-text shop">Наши изделия</h2>
         </div>
         <div class="wrp">
             <div class="cards__wrp">
                 <article class="card">
-                    <picture class="product__card-img">
-                        <source media="(min-width: 1200px)" srcset="/img/shop-item-desk1.jpg">
-                        <source media="(min-width: 641px) and (max-width: 1200px)" srcset="/img/shop-item-tablet1.jpg">
-                        <source media="(max-width: 640px)" srcset="/img/shop-item-mobile1.jpg">
-                    </picture>
-                    <img src="img/shop-item-desk1.jpg" alt="Изображение изделия" class="product__card-img">
-                    <div class="product__card">
-                        <h3 class="product__header">Подушки на диван</h3>
-                        <p class="product__description">Набор из двух подушек с модными принтами. Видео о создании <a href="#"
-                                                                                                                      class="product_description-link">здесь</a>.</p>
-                        <div class="product__buy">
-                            <div class="product__price">
-                                <p class="old__price"><s>1000 &#8381</s></p>
-                                <p class="new__price">800 &#8381</p>
+                        <picture class="product__card-img">
+                            <source media="(min-width: 1200px)" srcset="/img/shop-item-desk1.jpg">
+                            <source media="(min-width: 641px) and (max-width: 1200px)" srcset="/img/shop-item-tablet1.jpg">
+                            <source media="(max-width: 640px)" srcset="/img/shop-item-mobile1.jpg">
+                        </picture>
+                        <img src="img/shop-item-desk1.jpg" alt="Изображение изделия" class="product__card-img">
+                        <div class="product__card">
+                            <h3 class="product__header">Подушки на диван</h3>
+                            <p class="product__description">Набор из двух подушек с модными принтами. Видео о создании <a href="#"
+                                                                                                                          class="product_description-link">здесь</a>.</p>
+                            <div class="product__buy">
+                                <div class="product__price">
+                                    <p class="old__price"><s>1000 &#8381</s></p>
+                                    <p class="new__price">800 &#8381</p>
+                                </div>
+                                <a href="#" class="btn__the-store-link btn__the-store">В магазин</a>
                             </div>
-                            <a href="#" class="btn__the-store-link btn__the-store">В магазин</a>
                         </div>
-                    </div>
-                </article>
+                    </article>
                 <article class="card">
                     <picture class="product__card-img">
                         <source media="(min-width: 1200px)" srcset="/img/shop-item-desk2.jpg">
